@@ -20,9 +20,9 @@ public class GareebBank implements BankingSystem {
 
     @Override
     public void WithdrawMoney(int fund) {
-     balance = balance - fund;
-     if(balance < 0){
-         System.out.println("you can't withdraw money");
+
+     if(balance < fund){
+         System.out.println("you are greeb");
          balance = balance +fund;
      }
      else{
@@ -39,6 +39,7 @@ public class GareebBank implements BankingSystem {
 
     @Override
     public void calculateEMI(int balance) {
+        
 
     }
 
