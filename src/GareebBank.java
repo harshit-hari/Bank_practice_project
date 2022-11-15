@@ -39,7 +39,7 @@ public class GareebBank implements BankingSystem {
 
     @Override
     public void calculateEMI(int balance) {
-        
+
 
     }
 
